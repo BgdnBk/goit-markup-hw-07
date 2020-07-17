@@ -1,25 +1,25 @@
 @import "./utils/variables";
 @import "./base/normalize";
 @import "./base/doc-stiles";
-@import "./components/section";
 @import "./components/header";
 @import "./components/logo-header";
 @import "./components/address-header";
+@import "./components/button-list";
 @import "./components/form-section";
-@import "./components/hero-section";
-@import "./base/modal-form";
-@import "./components/modal-form";
-@import "./components/modal-form-interactive";
-@import "./components/form-icon";
-@import "./components/form-submit";
-@import "./components/feature-section";
-@import "./components/present-section";
-@import "./components/team-section";
-@import "./components/social-link";
-@import "./components/client-section";
+@import "./components/filter-portfolio";
+
+@import "./components/gallery-container";
+@import "./components/list-gallery";
+@import "./components/gallery-section";
+@import "./components/gallery-text";
+@import "./components/gallery-title";
+@import "./components/gallery-image";
+@import "./components/gallery-card";
+
 @import "./components/footer";
 @import "./components/footer-address";
 @import "./components/join-section";
 @import "./components/social-footer";
 @import "./components/news-section";
 @import "./components/copywriting-section";
+

@@ -33,6 +33,7 @@ a {
 
 button {
   font-family: inherit;
+  font-weight: 500;
   border: 0;
   outline: 0;
 }
@@ -54,4 +55,8 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   max-width: 1200px;
+}
+
+textarea {
+  resize: none;
 }

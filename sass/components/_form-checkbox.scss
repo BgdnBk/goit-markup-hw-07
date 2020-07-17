@@ -1,0 +1,54 @@
+.form-checkbox,
+.checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox {
+
+  &-label {
+    
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+    }
+  }
+
+
+  .custom-check ~ {
+
+    .checkbox-label {
+
+      &::before {  
+        content: " ";
+        display: block;
+        width: 16px;
+        height: 16px;
+        border: 2px solid $title-text-color;
+        border-radius: 3px;
+        margin-right: 8px;
+      
+        
+      }
+    }
+  }
+
+  .custom-check:checked ~ {
+    & .checkbox-label::before  {
+      background-color: $accent-color;
+      border-color: transparent;
+      background-image: url(../images/galochka.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      flex-shrink: 0;
+    
+      transition: background-color $duration $timing;
+    }
+  }
+
+  .custom-check {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }

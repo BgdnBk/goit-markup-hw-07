@@ -1,0 +1,119 @@
+.form {
+
+  &-field {
+
+    & .form {
+
+      &-input {
+        
+        &:hover, &:focus {
+          outline-color:$accent-color;
+        }
+      }
+    }
+  }
+}
+
+.form {
+
+  &-input {
+
+    &:focus-within ,  &:not(:placeholder-shown) ~ {
+
+      .form-label {
+        transform: translate(-25px, -40px);
+      }
+    }
+  }
+}
+
+// .form {
+
+//   &-field {
+
+//     & .form-coment {      
+//       transform: translate(-25px, -40px);
+//     }
+//   }
+// }
+
+
+.form {
+
+  &-field {
+
+    &:focus-within {
+
+      & .form-label , & .form-coment  {
+        transform: translate(-25px, -40px);
+        color: $accent-color; 
+      }
+    }
+  }
+}
+
+.form {
+
+  &-field {
+
+    &:focus-within {
+
+      & .icon {
+        fill: $accent-color;
+      }
+    }
+  }
+}
+
+
+.form {
+
+  &-field {
+
+    & .coment{    
+          
+        &:hover, &:focus {
+          outline-color:$accent-color;
+        }    
+    }
+  }
+}
+
+.form {
+
+  &-field {
+
+    & .form{
+
+      &-input {
+        
+        &:hover, &:focus {
+          outline-color:$accent-color;
+        }
+      }
+    }
+  }
+}
+
+.form {
+
+  &-field {
+
+    &:focus-within {
+
+       & .form-coment  {
+        transform: translateY(-40px);
+      }
+    }
+  }
+}
+
+.coment{
+
+  &:not(:placeholder-shown) ~ {
+
+    & .form-coment {
+      transform: translateY(-40px);
+   }
+  }
+}

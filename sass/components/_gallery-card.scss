@@ -1,0 +1,39 @@
+.card {
+
+  &-active {
+
+    transition: box-shadow $timing $duration;
+
+    &:hover, &:focus {
+
+      box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16),
+      0px 4px 4px rgba(0, 0, 0, 0.06),
+      0px 1px 1px rgba(0, 0, 0, 0.12);
+    }
+   }
+}
+
+.card {
+
+  &-active{
+    &:hover, &:focus {
+      & .gallery-text {
+        transform: translateY(0);
+          opacity: 1;
+      }
+    }
+  }
+}
+
+.card {
+
+  &-active{
+    &:hover, &:focus {
+      & .text {
+        color: $body-color;
+          opacity: 1;
+      }
+    }
+  }
+}
+

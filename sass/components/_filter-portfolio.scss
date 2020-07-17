@@ -1,0 +1,25 @@
+.filter {
+  color: $title-text-color;
+  background-color: #F5F4FA;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-radius: 4px;
+  border: 0;
+
+  transition: background-color $duration $timing;
+
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+}
+
+
+.filter {
+  
+  &:hover, &:focus {
+    background-color: $accent-color;
+    color: $primary-text-color;
+  }
+}

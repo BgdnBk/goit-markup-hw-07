@@ -31,3 +31,9 @@
           transform $duration $timing; 
   }
 }
+
+.form {
+  &-accept {
+    color: $accent-color;
+  }
+}
