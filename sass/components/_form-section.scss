@@ -1,0 +1,33 @@
+.form {
+  
+  &-input-coment {
+    margin: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 42px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    transition: border $timing $duration;
+  }
+}
+
+.form {
+
+  &-field-footer {
+    position: relative;
+    display: flex;
+    margin-bottom: 28px;  
+  }
+}
+
+.form {
+
+  &-label-footer {
+    position: absolute;
+    top: 50%;
+    left: 42px;
+    transform: translateY(-50%);
+    transition: color $timing $duration,
+          transform $duration $timing; 
+  }
+}

@@ -1,0 +1,84 @@
+.container {
+  
+  & .address-header{
+    margin-left: auto;
+  }
+}
+
+.address-header {
+
+  display: flex;
+  font-style: normal;
+  align-items: center;
+  justify-content: center;    
+
+    & .item:not(:last-child) {
+      margin-right: 30px;
+    }
+}
+
+.address-header {
+  
+    & .link {
+      display: flex;
+      align-items: center;
+      color: $text-color;
+      padding-top: 32px;
+      padding-bottom: 32px;
+      
+      transition-property: color;
+      transition-duration: $duration;
+      transition-timing-function: $timing;
+      }
+
+      &:hover, &:focus {
+        color: $accent-color;    
+    }
+}
+
+.list-address {
+  display: flex;
+  font-style: normal;
+  align-items: center;
+  justify-content: center;
+
+    & .item:not(:last-child) {
+      margin-right: 50px;
+    }
+}
+
+.list-address {
+  & .mail:hover, .mail:focus,
+  & .tel:hover , .tel:focus {
+    color: $accent-color
+  }
+}
+
+%iconAddress {
+
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px; 
+  fill: currentColor;
+}
+
+.mailHeader {  
+  @extend %iconAddress;
+  width: 16px;
+  height: 12px;  
+
+    &:hover, &:focus {
+      color: $accent-color;
+    }
+}
+
+.telHeader {
+  @extend %iconAddress;
+  width: 10px;
+  height: 16px;
+
+    &:hover, &:focus {
+      color: $accent-color;
+    }
+}
+

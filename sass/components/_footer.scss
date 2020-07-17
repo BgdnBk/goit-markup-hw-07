@@ -1,0 +1,37 @@
+.footer {
+    background-color: $footer-bgc;
+
+  & .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 48px;
+  }
+}
+
+.footer {
+
+  & .logo {
+    &-studio {
+      color: $primary-text-color;
+    }
+  }
+}
+
+.footer {
+  
+  & .link {
+    &-logo {
+      display: flex; 
+
+      font-family: Raleway;  
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 1.18;
+      letter-spacing: 0.03em;
+      
+      padding-bottom: 8px;
+      text-decoration: none;
+    }
+  }  
+}

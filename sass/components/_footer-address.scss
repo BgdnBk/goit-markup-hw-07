@@ -1,0 +1,61 @@
+.section {
+
+  &-address {
+    padding-bottom: 25px;
+    margin-right: 69px;
+  }
+}
+
+.footer {
+
+  &-address {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    display: block; 
+  }
+}
+
+.address {
+
+  &-list {
+
+    & .text {
+      font-weight: 400;  
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+      color: $body-color;
+    }
+  }
+}
+
+.address {
+
+  &-list {
+
+    & .item + .item {
+      padding-bottom: 9px;
+    }
+  }
+}
+
+.address {
+
+  &-list {
+
+    & .link {
+      transition-property: color;
+      transition-duration: $duration;
+      transition-timing-function: $timing;
+
+      &:hover, &:focus {
+        color: $accent-color;
+      }
+    }
+  }
+}

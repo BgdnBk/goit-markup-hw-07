@@ -1,0 +1,43 @@
+.section {
+
+  &-join {
+    padding-bottom: 56px;
+    margin-right: 94px;
+  }
+}
+
+.cosial {
+
+  &-subscribe {
+    color: $primary-text-color;
+  
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;  
+    display: block;
+    padding-bottom: 20px;
+  }
+}
+
+.list {
+
+  &-subscribe {
+    display: flex;
+
+    & .link {
+      border-radius: 50%;
+    }
+  }
+}
+
+.list {
+  &-susubscribe {
+    & .link {
+      &:hover, &:focus {
+        color: $accent-color;
+      }
+    }
+  }
+}
